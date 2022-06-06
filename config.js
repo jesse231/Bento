@@ -134,28 +134,28 @@ const CONFIG = {
 
 	// First Links Container
 	firstlistsContainer: [
-		{
-			icon: 'music',
-			id: '1',
-			links: [
-				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
+		// {
+		// 	icon: 'music',
+		// 	id: '1',
+		// 	links: [
+		// 		{
+		// 			name: 'Inspirational',
+		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+		// 		},
+		// 		{
+		// 			name: 'Classic',
+		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+		// 		},
+		// 		{
+		// 			name: 'Oldies',
+		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+		// 		},
+		// 		{
+		// 			name: 'Rock',
+		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+		// 		},
+		// 	],
+		// },
 		{
 			icon: 'coffee',
 			id: '2',
