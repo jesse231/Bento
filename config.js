@@ -59,8 +59,8 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
+			name: 'Minvera',
+			icon: 'graduation-cap',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
