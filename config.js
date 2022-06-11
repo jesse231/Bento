@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Minvera',
 			icon: 'graduation-cap',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://horizon.mcgill.ca/',
 		},
 		{
 			id: '3',
