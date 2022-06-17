@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Homeassistant',
+			icon: 'bot',
+			link: 'https://homeassistant.seeligsohn.com/',
 		},
 		{
 			id: '4',
