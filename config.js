@@ -71,15 +71,15 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Lucid',
+			icon: 'Infinity',
+			link: 'https://lucide.dev',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Jellyfin',
+			icon: 'video',
+			link: 'https://jellyfin.seeligsohn.com',
 		},
 		{
 			id: '6',
