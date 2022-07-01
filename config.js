@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Homer',
+			icon: 'home',
+			link: 'https://homer.seeligsohn.com/',
 		},
 	],
 
