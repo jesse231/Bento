@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Homeassistant',
-			icon: 'bot',
-			link: 'https://homeassistant.seeligsohn.com/',
+			name: 'MyCourses',
+			icon: 'backpack',
+			link: 'https://mycourses2.mcgill.ca/',
 		},
 		{
 			id: '4',
@@ -98,9 +98,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Homeassistant',
+			icon: 'bot',
+			link: 'https://homeassistant.seeligsohn.com/',
 		},
 		{
 			id: '3',
