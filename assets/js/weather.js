@@ -17,12 +17,6 @@ var tempUnit = CONFIG.weatherUnit;
 const KELVIN = 273.15;
 const key = `${CONFIG.weatherKey}`;
 setPosition();
-export const initialState = {
-  loading: true,
-  data: null,
-  city: '',
-  showMore: false
-}
 
 function setPosition(position) {
 	if (!CONFIG.trackLocation || !navigator.geolocation) {
