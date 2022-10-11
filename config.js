@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'd537a5a6c1ca5b5b747cacf67b749a90', // Write here your API Key
@@ -59,33 +59,33 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Minvera',
-			icon: 'graduation-cap',
-			link: 'https://horizon.mcgill.ca/',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '3',
-			name: 'MyCourses',
-			icon: 'backpack',
-			link: 'https://mycourses2.mcgill.ca/',
+			name: 'Google Classroom',
+			icon: 'clipboard',
+			link: 'https://classroom.google.com/u/1/',
 		},
 		{
 			id: '4',
-			name: 'Lucid',
-			icon: 'Infinity',
-			link: 'https://lucide.dev',
+			name: 'Calendar',
+			icon: 'calendar',
+			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
 			id: '5',
-			name: 'Jellyfin',
-			icon: 'video',
-			link: 'https://jellyfin.seeligsohn.com',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv/',
 		},
 		{
 			id: '6',
-			name: 'Homer',
-			icon: 'home',
-			link: 'https://homer.seeligsohn.com/',
+			name: 'Odysee',
+			icon: 'youtube',
+			link: 'https://odysee.com/',
 		},
 	],
 
@@ -98,15 +98,15 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Homeassistant',
-			icon: 'bot',
-			link: 'https://homeassistant.seeligsohn.com/',
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
 		},
 		{
 			id: '3',
 			name: 'bot',
-			icon: 'newspaper',
-			link: 'h',
+			icon: 'bot',
+			link: 'https://discord.com/app',
 		},
 		{
 			id: '4',
@@ -135,30 +135,30 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'tv-retro',
+			icon: 'tv',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Netflix',
+					link: 'https://www.netflix.com/browse',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Jellyfin',
+					link: 'https://jellyfin.seeligsohn.com',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Prime',
+					link: 'https://www.primevideo.com/storefront/home',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Crave',
+					link: 'https://www.crave.ca/en',
 				},
 			],
 		},
 		{
 			icon: 'coffee',
-			id: '1',
+			id: '2',
 			links: [
 				{
 					name: 'Linkedin',
@@ -175,6 +175,54 @@ const CONFIG = {
 				{
 					name: 'Slack',
 					link: 'https://www.slack.com',
+				},
+			],
+		},
+	],
+
+	// Second Links Container
+	secondListsContainer: [
+		{
+			icon: 'binary',
+			id: '1',
+			links: [
+				{
+					name: 'Spotify',
+					link: 'https://www.spotify.com',
+				},
+				{
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
+				},
+				{
+					name: 'Hashnode',
+					link: 'https://www.hashnode.com',
+				},
+				{
+					name: 'Pocket',
+					link: 'https://www.pocket.com',
+				},
+			],
+		},
+		{
+			icon: 'github',
+			id: '2',
+			links: [
+				{
+					name: 'Front',
+					link: 'https://www.reddit.com/r/Frontend/',
+				},
+				{
+					name: 'Rust',
+					link: 'https://www.reddit.com/r/rust/',
+				},
+				{
+					name: 'Go',
+					link: 'https://www.reddit.com/r/golang/',
+				},
+				{
+					name: 'Repos',
+					link: 'https://github.com/migueravila',
 				},
 			],
 		},
