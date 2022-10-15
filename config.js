@@ -53,15 +53,15 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
-		},
-		{
-			id: '2',
 			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://www.youtube.com/',
+		},
+		{
+			id: '2',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv/',
 		},
 		{
 			id: '3',
@@ -71,21 +71,21 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Brightspace',
+			icon: 'activity',
+			link: 'https://tdsb.elearningontario.ca/d2l/home/3601064',
 		},
 		{
 			id: '5',
-			name: 'Twitch',
-			icon: 'twitch',
-			link: 'https://www.twitch.tv/',
+			name: 'Homer',
+			icon: 'home',
+			link: 'https://homer.seeligsohn.com/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
