@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'Koby',
-	imageBackground: true,
+	imageBackground: false,
 	openInNewTab: false,
 	twelveHourFormat: false,
 
