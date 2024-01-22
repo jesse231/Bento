@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Jesse',
+	name: 'Koby',
 	imageBackground: false,
 	openInNewTab: false,
 	twelveHourFormat: false,
@@ -23,17 +23,17 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '3665f421a998b4c55024eb3a7090ddb0', // Write here your API Key
+	weatherKey: 'd537a5a6c1ca5b5b747cacf67b749a90', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '43.653225',
+	defaultLongitude: '-79.383186',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '2',
-			name: 'Minvera',
-			icon: 'graduation-cap',
-			link: 'https://horizon.mcgill.ca/',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv/',
 		},
 		{
 			id: '3',
-			name: 'MyCourses',
-			icon: 'backpack',
-			link: 'https://mycourses2.mcgill.ca/',
+			name: 'Google Classroom',
+			icon: 'clipboard',
+			link: 'https://classroom.google.com/u/1/',
 		},
 		{
 			id: '4',
-			name: 'Lucid',
-			icon: 'Infinity',
-			link: 'https://lucide.dev',
+			name: 'Brightspace',
+			icon: 'activity',
+			link: 'https://tdsb.elearningontario.ca/d2l/home/3601064',
 		},
 		{
 			id: '5',
-			name: 'Jellyfin',
-			icon: 'video',
-			link: 'https://jellyfin.seeligsohn.com',
-		},
-		{
-			id: '6',
 			name: 'Homer',
 			icon: 'home',
 			link: 'https://homer.seeligsohn.com/',
+		},
+		{
+			id: '6',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
@@ -98,15 +98,15 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Homeassistant',
-			icon: 'bot',
-			link: 'https://homeassistant.seeligsohn.com/',
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
 		},
 		{
 			id: '3',
 			name: 'bot',
-			icon: 'newspaper',
-			link: 'h',
+			icon: 'bot',
+			link: 'https://discord.com/app',
 		},
 		{
 			id: '4',
@@ -134,50 +134,50 @@ const CONFIG = {
 
 	// First Links Container
 	firstlistsContainer: [
-		// {
-		// 	icon: 'music',
-		// 	id: '1',
-		// 	links: [
-		// 		{
-		// 			name: 'Inspirational',
-		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		// 		},
-		// 		{
-		// 			name: 'Classic',
-		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		// 		},
-		// 		{
-		// 			name: 'Oldies',
-		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		// 		},
-		// 		{
-		// 			name: 'Rock',
-		// 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		// 		},
-		// 	],
-		// },
-		// {
-		// 	icon: 'coffee',
-		// 	id: '1',
-		// 	links: [
-		// 		{
-		// 			name: 'Linkedin',
-		// 			link: 'https://www.linkedin.com',
-		// 		},
-		// 		{
-		// 			name: 'Dribbble',
-		// 			link: 'https://www.dribbble.com',
-		// 		},
-		// 		{
-		// 			name: 'Trello',
-		// 			link: 'https://www.trello.com',
-		// 		},
-		// 		{
-		// 			name: 'Slack',
-		// 			link: 'https://www.slack.com',
-		// 		},
-		// 	],
-		// },
+		{
+			icon: 'tv',
+			id: '1',
+			links: [
+				{
+					name: 'Netflix',
+					link: 'https://www.netflix.com/browse',
+				},
+				{
+					name: 'Jellyfin',
+					link: 'https://jellyfin.seeligsohn.com',
+				},
+				{
+					name: 'Prime',
+					link: 'https://www.primevideo.com/storefront/home',
+				},
+				{
+					name: 'Crave',
+					link: 'https://www.crave.ca/en',
+				},
+			],
+		},
+		{
+			icon: 'coffee',
+			id: '2',
+			links: [
+				{
+					name: 'Linkedin',
+					link: 'https://www.linkedin.com',
+				},
+				{
+					name: 'Dribbble',
+					link: 'https://www.dribbble.com',
+				},
+				{
+					name: 'Trello',
+					link: 'https://www.trello.com',
+				},
+				{
+					name: 'Slack',
+					link: 'https://www.slack.com',
+				},
+			],
+		},
 	],
 
 	// Second Links Container
