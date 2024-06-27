@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'Jesse',
-	imageBackground: false,
+	imageBackground: true,
 	openInNewTab: false,
 	twelveHourFormat: false,
 
@@ -27,11 +27,11 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: '3665f421a998b4c55024eb3a7090ddb0', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Onedark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
 	defaultLongitude: '-122.419',
 
@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Lucid',
-			icon: 'Infinity',
-			link: 'https://lucide.dev',
+			name: 'Clockwork',
+			icon: 'clock',
+			link: 'https://students.accessibility.mcgill.ca/ClockWork/custom/misc/home.aspx',
 		},
 		{
 			id: '5',
@@ -104,9 +104,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'newspaper',
-			link: 'h',
+			name: 'Lucid',
+			icon: 'Infinity',
+			link: 'https://lucide.dev',
 		},
 		{
 			id: '4',

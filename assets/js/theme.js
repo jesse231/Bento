@@ -7,6 +7,7 @@ let darkTheme = localStorage.getItem('darkTheme');
 const themeToggle = document.querySelector('#themeButton');
 const bodyBackground = document.getElementById('#body');
 
+
 const enableDark = () => {
 	document.body.classList.add('darktheme');
 	localStorage.setItem('darkTheme', 'enabled');
@@ -40,6 +41,34 @@ themeToggle.addEventListener('click', () => {
 
 if (CONFIG.imageBackground) {
 	document.body.classList.add('withImageBackground');
+	
+	const imageBackgroundsLight = [
+		'background0.png',
+		'background1.png',
+		'background2.jpg',
+		'background3.jpg',
+		'background4.jpg',
+		'background5.jpg',
+		'background6.jpg',
+		'background7.jpg',
+	];
+
+	const imageBackgroundsDark = [
+		'background0.jpg',
+		'background1.webp',
+		'background2.webp',
+		'background3.png',
+	];
+
+	const imageBackgrounds = darkTheme === 'enabled' ? imageBackgroundsDark : imageBackgroundsLight;
+	const randomIndex = Math.floor(Math.random() * imageBackgrounds.length);
+	const randomImage = imageBackgrounds[randomIndex];
+	if (darkTheme === 'enabled') {
+		document.body.style.backgroundImage = `var(--imgcol), url(assets/backgrounds/summer/dark/${randomImage})`;
+	} else {
+		document.body.style.backgroundImage = `var(--imgcol), url(assets/backgrounds/summer/light/${randomImage})`;
+	}
+	// document.body.style.backgroundImage = `url(assets/backgrounds/light/${randomImage})`;
 }
 
 if (CONFIG.changeThemeByOS && CONFIG.autoChangeTheme) {
