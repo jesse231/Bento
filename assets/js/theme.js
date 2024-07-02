@@ -64,9 +64,9 @@ if (CONFIG.imageBackground) {
 	const randomIndex = Math.floor(Math.random() * imageBackgrounds.length);
 	const randomImage = imageBackgrounds[randomIndex];
 	if (darkTheme === 'enabled') {
-		document.body.style.backgroundImage = `var(--imgcol), url(assets/backgrounds/summer/dark/${randomImage})`;
+		document.body.style.backgroundImage = `var(--imgcol), url(./assets/backgrounds/summer/dark/${randomImage})`;
 	} else {
-		document.body.style.backgroundImage = `var(--imgcol), url(assets/backgrounds/summer/light/${randomImage})`;
+		document.body.style.backgroundImage = `var(--imgcol), url(./assets/backgrounds/summer/light/${randomImage})`;
 	}
 	// document.body.style.backgroundImage = `url(assets/backgrounds/light/${randomImage})`;
 }
