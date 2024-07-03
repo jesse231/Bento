@@ -31,7 +31,6 @@
 
   /* Image background  */
   /* Image URL */
- --imgbg: url(assets/backgrounds/light/summer/background0.png); 
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.3),
     rgba(255, 255, 255, 0.3)
