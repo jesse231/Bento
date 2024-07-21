@@ -77,9 +77,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Homer',
+			name: 'Homepage',
 			icon: 'home',
-			link: 'https://homer.seeligsohn.com/',
+			link: 'https://homepage.seeligsohn.com/',
 		},
 		{
 			id: '6',
